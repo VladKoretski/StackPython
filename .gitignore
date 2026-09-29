@@ -1,0 +1,40 @@
+
+---
+
+## `.gitignore`
+
+```gitignore
+# Байт-код Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+ENV/
+
+# Дистрибутивы / сборка
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Тесты и кэш
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
